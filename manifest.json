@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Your Extension Name",
+  "version": "1.0",
+  "description": "Description of your extension",
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icon_16.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    },
+    "default_popup": "popup.html"
+  }
+}
